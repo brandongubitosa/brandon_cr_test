@@ -1,0 +1,16 @@
+# Node modules, build, and OS files
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+*.log
+# VS Code
+.vscode/
+# Mac system files
+._*
+# Python cache
+__pycache__/
+*.pyc
+# Coverage
+coverage/
