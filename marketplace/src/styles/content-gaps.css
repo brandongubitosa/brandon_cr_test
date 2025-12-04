@@ -1,0 +1,153 @@
+/* Content Gaps Section */
+.gaps-section {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #f6f7fb 0%, #e8f0ff 100%);
+  border-top: 1px solid #dde2e8;
+}
+
+.gaps-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.gaps-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gaps-header h2 {
+  font-size: 2rem;
+  color: #161616;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.gaps-subtitle {
+  font-size: 1rem;
+  color: #525252;
+  margin: 0;
+}
+
+/* Gaps Grid */
+.gaps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.gap-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.gap-card:hover {
+  border-color: #0f62fe;
+  box-shadow: 0 4px 12px rgba(15, 98, 254, 0.15);
+  transform: translateY(-2px);
+}
+
+.gap-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.gap-theme {
+  font-size: 1.25rem;
+  color: #161616;
+  margin: 0;
+  font-weight: 600;
+}
+
+.gap-badge {
+  background: #ffc107;
+  color: #333;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.gap-description {
+  font-size: 0.95rem;
+  color: #525252;
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.gap-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+  font-size: 0.875rem;
+}
+
+.gap-count {
+  color: #878787;
+  font-weight: 500;
+}
+
+.gap-demand {
+  color: #da1e28;
+  font-weight: 600;
+}
+
+/* Callout Box */
+.gaps-callout {
+  background: #fff8e1;
+  border-left: 4px solid #ffc107;
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.gaps-callout p {
+  margin: 0;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Loading & Error States */
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #525252;
+  font-size: 1rem;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #da1e28;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .gaps-section {
+    padding: 2rem 0;
+  }
+
+  .gaps-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .gaps-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .gaps-callout {
+    padding: 1rem;
+  }
+}

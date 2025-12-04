@@ -4,5 +4,16 @@ body{font-family:Inter,system-ui,Arial;margin:0;background:#f6f7fb;color:#0b0b0b
 .container{max-width:1100px;margin:24px auto;padding:0 20px}
 .hero{background:linear-gradient(180deg,#fff,#fbfdff);padding:32px;border-radius:12px;box-shadow:0 6px 24px rgba(15,98,254,0.06)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:18px}
-.card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(12,34,56,0.04)}
+.card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(12,34,56,0.04);position:relative;transition:all 0.3s ease}
+.card:hover{box-shadow:0 12px 28px rgba(15,98,254,0.12);transform:translateY(-2px)}
+.card h3{margin:8px 0;font-size:1.1rem;color:#161616}
+.card p{margin:6px 0;font-size:0.9rem}
+.theme-badge{background:#e3f2fd;color:#0f62fe;padding:4px 8px;border-radius:4px;font-weight:600;display:inline-block}
+.difficulty{color:#525252;text-transform:capitalize;font-size:0.85rem}
+.price{color:var(--accent);font-weight:600;font-size:1.1rem;margin-top:12px}
+.badge{position:absolute;top:8px;right:8px;background:#ffc107;color:#333;padding:4px 10px;border-radius:20px;font-size:0.75rem;font-weight:600}
+.high-demand-card{border:2px solid #ffc107}
+.recommended-section{background:linear-gradient(135deg,#fff8e1 0%,#fff 100%);padding:48px 0;margin-top:32px;border-top:1px solid #dde2e8}
+.recommended-section h2{text-align:center;margin:0 0 8px 0;font-size:1.8rem;color:#161616}
+.recommended-subtitle{text-align:center;color:#525252;margin:0 0 24px 0}
 .site-footer{text-align:center;padding:18px 0;color:var(--muted)}
